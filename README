@@ -1,0 +1,14 @@
+Group Memebers: Samuel Smetzer and James Rodriguez
+
+
+EC:
+Implemented the DAG in the adjacency list format.
+Implemented the topological sorting method using the queue-based decrease-by-one design method.
+
+
+
+Note:
+Optimnal revenue was calciulated and printed successfully, with the optimal path, however we had trouble recording the path
+to an available vector, as when the other itrations of F(vi) are ran, the values in the global vector would be overwritten.
+This can likely be solved if we were able to recover the optimal path from the Vi that is optimal and the optimal revenue, or
+if the path could have been passed with the maximum revenue back to the caller.
